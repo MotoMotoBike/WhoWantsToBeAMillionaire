@@ -1,0 +1,25 @@
+﻿<quiz>
+  <question>
+    <text>Какая столица Италии?</text>
+    <answer correct="true">Рим</answer>
+    <answer>Венеция</answer>
+    <answer>Флоренция</answer>
+    <answer>Неаполь</answer>
+  </question>
+  
+  <question>
+    <text>Какой океан находится между Америкой и Азией?</text>
+    <answer>Индийский</answer>
+    <answer>Атлантический</answer>
+    <answer>Тихий</answer>
+    <answer correct="true">Северный Ледовитый</answer>
+  </question>
+  
+  <question>
+    <text>Какой из этих городов является столицей Канады?</text>
+    <answer>Торонто</answer>
+    <answer>Монреаль</answer>
+    <answer correct="true">Оттава</answer>
+    <answer>Ванкувер</answer>
+  </question>
+</quiz>
