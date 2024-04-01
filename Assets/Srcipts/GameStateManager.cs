@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Playables;
 
 public class GameStateManager : MonoBehaviour
 {
@@ -14,9 +11,14 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI PlayerNameText;
     public void StartGameSession()
     {
+        string userName = PlayerNameText.text;
+        if (userName == "​" || userName == "" )
+        {
+            userName = "Испытуемый: "+Random.Range(0,10000).ToString();
+        }
         mainMenuPanel.SetActive(false);
         losePanel.SetActive(false);
-        gameData.StartSession(PlayerNameText.text);
+        gameData.StartSession(userName);
         gameSessionPanel.SetActive(true);
     }
 }

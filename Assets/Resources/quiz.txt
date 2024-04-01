@@ -1,25 +1,81 @@
 <quiz>
   <question>
-    <text>����� ������� ������?</text>
-    <answer correct="true">���</answer>
-    <answer>�������</answer>
-    <answer>���������</answer>
-    <answer>�������</answer>
+    <text>Как называется разработчик игры People Playground?</text>
+    <answer>mestiez</answer>
+    <answer correct="true">moodoo apps maker</answer>
+    <answer>Valve Corporation</answer>
+    <answer>Electronic Arts</answer>
   </question>
-  
+
   <question>
-    <text>����� ����� ��������� ����� �������� � �����?</text>
-    <answer>���������</answer>
-    <answer>�������������</answer>
-    <answer>�����</answer>
-    <answer correct="true">�������� ���������</answer>
+    <text>Какой жанр игры People Playground?</text>
+    <answer>Головоломка</answer>
+    <answer correct="true">Симулятор песочницы</answer>
+    <answer>Стратегия</answer>
+    <answer>Ролевая игра</answer>
   </question>
-  
+
   <question>
-    <text>����� �� ���� ������� �������� �������� ������?</text>
-    <answer>�������</answer>
-    <answer>��������</answer>
-    <answer correct="true">������</answer>
-    <answer>��������</answer>
+    <text>Каковы минимальные системные требования для игры People Playground?</text>
+    <answer>1 ГБ ОЗУ и Видеокарта: 215 Мб</answer>
+    <answer correct="true">2 ГБ ОЗУ и Видеокарта: 215 Мб</answer>
+    <answer>4 ГБ ОЗУ и GTX 1060</answer>
+    <answer>4 ГБ ОЗУ и RTX 2060</answer>
+  </question>
+
+  <question>
+    <text>В каком году была выпущена игра People Playground?</text>
+    <answer>2017</answer>
+    <answer>2018</answer>
+    <answer correct="true">2019</answer>
+    <answer>2020</answer>
+  </question>
+
+  <question>
+    <text>Какова основная цель игры People Playground?</text>
+    <answer>Выиграть сражение</answer>
+    <answer>Построить город</answer>
+    <answer correct="true">Экспериментировать с объектами</answer>
+    <answer>Выжить на необитаемом острове</answer>
+  </question>
+
+  <question>
+    <text>Какое действие позволяет замедлить время в игре?</text>
+    <answer>Нажатие на "F"</answer>
+    <answer correct="true">Нажатие на "G"</answer>
+    <answer>Нажатие на "T"</answer>
+    <answer>Нажатие на "Space"</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если нажать "Z" в игре?</text>
+    <answer>Заспавнится новый предмет</answer>
+    <answer>Предмет начнет вращаться</answer>
+    <answer correct="true">Удалится последний предмет</answer>
+    <answer>Предмет будет скопирован</answer>
+  </question>
+
+  <question>
+    <text>Какая клавиша используется для активации предметов?</text>
+    <answer>"E"</answer>
+    <answer>"Q"</answer>
+    <answer correct="true">"F"</answer>
+    <answer>"V"</answer>
+  </question>
+
+  <question>
+    <text>Какая функция у клавиши "T"?</text>
+    <answer>Удаление предмета</answer>
+    <answer correct="true">Показ температуры предметов</answer>
+    <answer>Замедление времени</answer>
+    <answer>Скопировать предмет</answer>
+  </question>
+
+  <question>
+    <text>Какие сущности можно найти в первой вкладке игры?</text>
+    <answer>Только люди</answer>
+    <answer correct="true">Люди, андроиды и горсы</answer>
+    <answer>Только андроиды</answer>
+    <answer>Только горсы</answer>
   </question>
 </quiz>

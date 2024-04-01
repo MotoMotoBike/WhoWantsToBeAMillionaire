@@ -1,7 +1,6 @@
 using Assets.Srcipts.Model;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using YG;
 
 public class QuizGameSessionData : MonoBehaviour
 {
@@ -45,6 +44,7 @@ public class QuizGameSessionData : MonoBehaviour
         }
         else
         {
+            YandexGame.FullscreenShow();
             AnswerWrong();
         }
     }
@@ -52,7 +52,7 @@ public class QuizGameSessionData : MonoBehaviour
     public void SetNextQustion()
     {
         qestionCompleteCount++;
-        if(qestionCompleteCount == 3)
+        if(qestionCompleteCount == 10)
         {
             UIUpdater.ShowWinGamePanel();
             Destroy(this);
