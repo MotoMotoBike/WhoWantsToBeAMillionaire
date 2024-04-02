@@ -78,4 +78,337 @@
     <answer>Только андроиды</answer>
     <answer>Только горсы</answer>
   </question>
+  
+  <question>
+    <text>Какой объект можно создать, нажав "1" в игре Human Playground?</text>
+    <answer>Стул</answer>
+    <answer correct="true">Ящик</answer>
+    <answer>Стол</answer>
+    <answer>Дверь</answer>
+  </question>
+  
+  <question>
+    <text>Что произойдет, если нажать "R" в игре Human Playground?</text>
+    <answer>Предмет будет скопирован</answer>
+    <answer>Предмет начнет вращаться</answer>
+    <answer correct="true">Предмет будет повернут</answer>
+    <answer>Предмет будет удален</answer>
+  </question>
+  
+  <question>
+    <text>Какая функция у клавиши "C" в игре Human Playground?</text>
+    <answer>Удаление предмета</answer>
+    <answer correct="true">Смена камеры</answer>
+    <answer>Замедление времени</answer>
+    <answer>Скопировать предмет</answer>
+  </question>
+  
+  <question>
+    <text>Что произойдет, если нажать "X" в игре Human Playground?</text>
+    <answer>Заспавнится новый предмет</answer>
+    <answer>Предмет начнет вращаться</answer>
+    <answer correct="true">Удалится все предметы</answer>
+    <answer>Предмет будет скопирован</answer>
+  </question>
+  
+  <question>
+    <text>Какая функция у клавиши "V" в игре Human Playground?</text>
+    <answer>Удаление предмета</answer>
+    <answer>Показ температуры предметов</answer>
+    <answer>Замедление времени</answer>
+    <answer correct="true">Скопировать предмет</answer>
+  </question>
+  
+  <question>
+    <text>Какие сущности можно найти во второй вкладке игры Human Playground?</text>
+    <answer>Только люди</answer>
+    <answer>Люди, андроиды и горсы</answer>
+    <answer correct="true">Только андроиды</answer>
+    <answer>Только горсы</answer>
+  </question>
+  
+  <question>
+    <text>Какие сущности можно найти в третьей вкладке игры Human Playground?</text>
+    <answer>Только люди</answer>
+    <answer>Люди, андроиды и горсы</answer>
+    <answer>Только андроиды</answer>
+    <answer correct="true">Только горсы</answer>
+  </question>
+  
+  <question>
+    <text>Какой объект можно создать, нажав "2" в игре Human Playground?</text>
+    <answer correct="true">Стул</answer>
+    <answer>Ящик</answer>
+    <answer>Стол</answer>
+    <answer>Дверь</answer>
+  </question>
+  
+  <question>
+    <text>Какой объект можно создать, нажав "3" в игре Human Playground?</text>
+    <answer>Стул</answer>
+    <answer>Ящик</answer>
+    <answer correct="true">Стол</answer>
+    <answer>Дверь</answer>
+  </question>
+  
+  <question>
+    <text>Какой объект можно создать, нажав "4" в игре Human Playground?</text>
+    <answer>Стул</answer>
+    <answer>Ящик</answer>
+    <answer>Стол</answer>
+    <answer correct="true">Дверь</answer>
+  </question>
+    <question>
+      <text>Что происходит, если вы используете инструмент "Молоток"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer correct="true">Уничтожение предмета</answer>
+      <answer>Изменение формы предмета</answer>
+      <answer>Перемещение предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения формы предметов?</text>
+      <answer>Молоток</answer>
+      <answer>Пила</answer>
+      <answer correct="true">Стамеска</answer>
+      <answer>Отвертка</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Пила"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer correct="true">Разделение предмета на части</answer>
+      <answer>Изменение формы предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для создания новых предметов?</text>
+      <answer>Молоток</answer>
+      <answer correct="true">3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer>Пила</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Отвертка"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение свойств предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для перемещения предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Кран</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Кран"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Перемещение предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для уничтожения предметов?</text>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer>Кран</answer>
+      <answer correct="true">Молоток</answer>
+    </question>
+    <question>
+      <text>Какой инструмент используется для копирования предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Сканер</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Сканер"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Копирование предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения температуры предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Терморегулятор</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Терморегулятор"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение температуры предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения скорости времени?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Тайм-дилейтер</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Тайм-дилейтер"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение скорости времени</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения свойств предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Трансформатор</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Трансформатор"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение свойств предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения размера предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Ресайзер</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Ресайзер"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение размера предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения цвета предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Палитра</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Палитра"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение цвета предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения материала предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Материализатор</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Материализатор"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение материала предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения веса предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Весоизмеритель</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Весоизмеритель"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение веса предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения формы предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Формоизменитель</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Формоизменитель"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение формы предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для изменения прочности предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Укрепитель</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Укрепитель"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение прочности предмета</answer>
+    </question>
+    <question>
+      <text>Какой инструмент используется для изменения электрических свойств предметов?</text>
+      <answer>Молоток</answer>
+      <answer>3D-принтер</answer>
+      <answer>Стамеска</answer>
+      <answer correct="true">Электроизменитель</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Разрушитель"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer correct="true">Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer>Изменение прочности предмета</answer>
+    </question>
+    
+    <question>
+      <text>Какой инструмент используется для создания новых объектов?</text>
+      <answer correct="true">Создатель</answer>
+      <answer>Модификатор</answer>
+      <answer>Разрушитель</answer>
+      <answer>Укрепитель</answer>
+    </question>
+    
+    <question>
+      <text>Что происходит, если вы используете инструмент "Модификатор"?</text>
+      <answer>Создание нового предмета</answer>
+      <answer>Уничтожение предмета</answer>
+      <answer>Разделение предмета на части</answer>
+      <answer correct="true">Изменение свойств предмета</answer>
+    </question>
 </quiz>

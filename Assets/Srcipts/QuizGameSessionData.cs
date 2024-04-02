@@ -10,6 +10,7 @@ public class QuizGameSessionData : MonoBehaviour
     public int lives = 3;
     public int qestionCompleteCount = 0;
     public int score = 0;
+    public int AnsversCountToWin = 100;
 
     public Quiz quiz;
     public Question currentQuestion;
@@ -22,6 +23,7 @@ public class QuizGameSessionData : MonoBehaviour
     public void StartSession(string playerName)
     {
         quiz = parcerXML.ParseQuizXml();
+        Debug.Log($"found {quiz.Questions.Count} Questions in xml");
         score = 0;
         this.playerName = playerName;
         lives = 3;
@@ -38,9 +40,7 @@ public class QuizGameSessionData : MonoBehaviour
     {
         if(currentQuestion.CorrectAnswerIndex == ansverid)
         {
-            SetNextQustion();
-            UIUpdater.NextQusetion();
-            StartCoroutine(UIUpdater.ShowCorrectMessageBox());
+            AnswerCorrect();
         }
         else
         {
@@ -52,19 +52,15 @@ public class QuizGameSessionData : MonoBehaviour
     public void SetNextQustion()
     {
         qestionCompleteCount++;
-        if(qestionCompleteCount == 10)
+        if(quiz.Questions.Count == 0) 
         {
             UIUpdater.ShowWinGamePanel();
             Destroy(this);
         }
         quiz.Questions.Remove(currentQuestion);
         currentQuestion = quiz.Questions[Random.Range(0, quiz.Questions.Count)];
-        if (score == 0)
-            score = 100;
-        else
-        {
-            score *= 2;
-        }
+        score += 100;
+        
     }
     public void AnswerWrong()
     {
@@ -80,6 +76,8 @@ public class QuizGameSessionData : MonoBehaviour
     }
     public void AnswerCorrect()
     {
+        SetNextQustion();
         UIUpdater.NextQusetion();
+        StartCoroutine(UIUpdater.ShowCorrectMessageBox());
     }
 }
