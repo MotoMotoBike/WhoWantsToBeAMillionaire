@@ -5,6 +5,7 @@ using YG;
 public class QuizGameSessionData : MonoBehaviour
 {
     ParcerXML parcerXML;
+    [SerializeField]int countToEndQizz;
 
     public string playerName;
     public int lives = 3;
@@ -52,7 +53,7 @@ public class QuizGameSessionData : MonoBehaviour
     public void SetNextQustion()
     {
         qestionCompleteCount++;
-        if(qestionCompleteCount == 10)
+        if(qestionCompleteCount == countToEndQizz)
         {
             UIUpdater.ShowWinGamePanel();
             Destroy(this);

@@ -1,5 +1,85 @@
 <quiz>
   <question>
+    <text>Какой предмет можно использовать для восстановления здоровья персонажа?</text>
+    <answer>Молоток</answer>
+    <answer correct="true">Сердце</answer>
+    <answer>Пистолет</answer>
+    <answer>Батарея</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к человеку?</text>
+    <answer>Человек начнет двигаться быстрее</answer>
+    <answer>Человек получит урон</answer>
+    <answer correct="true">Человек будет электризован</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет можно использовать для создания пожара?</text>
+    <answer>Молоток</answer>
+    <answer>Сердце</answer>
+    <answer correct="true">Огнемет</answer>
+    <answer>Батарея</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к металлическому предмету?</text>
+    <answer>Предмет начнет двигаться</answer>
+    <answer correct="true">Предмет будет электризован</answer>
+    <answer>Предмет взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет можно использовать для уничтожения большого количества объектов?</text>
+    <answer>Молоток</answer>
+    <answer>Сердце</answer>
+    <answer correct="true">Бомба</answer>
+    <answer>Батарея</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к воде?</text>
+    <answer>Вода начнет кипеть</answer>
+    <answer correct="true">Вода будет электризована</answer>
+    <answer>Вода взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет можно использовать для перемещения объектов на расстоянии?</text>
+    <answer>Молоток</answer>
+    <answer correct="true">Телекинез</answer>
+    <answer>Бомба</answer>
+    <answer>Батарея</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к деревянному предмету?</text>
+    <answer>Предмет начнет двигаться</answer>
+    <answer>Предмет будет электризован</answer>
+    <answer>Предмет взорвется</answer>
+    <answer correct="true">Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет можно использовать для быстрого перемещения объектов?</text>
+    <answer>Молоток</answer>
+    <answer>Сердце</answer>
+    <answer>Бомба</answer>
+    <answer correct="true">Реактивный двигатель</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к реактивному двигателю?</text>
+    <answer>Двигатель начнет двигаться</answer>
+    <answer correct="true">Двигатель будет активирован</answer>
+    <answer>Двигатель взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
     <text>Как называется разработчик игры People Playground?</text>
     <answer>mestiez</answer>
     <answer correct="true">moodoo apps maker</answer>
@@ -77,5 +157,171 @@
     <answer correct="true">Люди, андроиды и горсы</answer>
     <answer>Только андроиды</answer>
     <answer>Только горсы</answer>
+  </question>
+    <question>
+    <text>Какой предмет можно использовать для защиты персонажа?</text>
+    <answer>Молоток</answer>
+    <answer correct="true">Щит</answer>
+    <answer>Батарея</answer>
+    <answer>Сердце</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к роботу?</text>
+    <answer>Робот начнет двигаться быстрее</answer>
+    <answer>Робот получит урон</answer>
+    <answer correct="true">Робот будет активирован</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет можно использовать для освещения темного места?</text>
+    <answer>Молоток</answer>
+    <answer>Сердце</answer>
+    <answer correct="true">Фонарик</answer>
+    <answer>Батарея</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к фонарику?</text>
+    <answer>Фонарик начнет двигаться</answer>
+    <answer correct="true">Фонарик будет светить</answer>
+    <answer>Фонарик взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет можно использовать для уничтожения стены?</text>
+    <answer>Молоток</answer>
+    <answer>Сердце</answer>
+    <answer correct="true">Динамит</answer>
+    <answer>Батарея</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к динамиту?</text>
+    <answer>Динамит начнет двигаться</answer>
+    <answer>Динамит будет светить</answer>
+    <answer correct="true">Динамит взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет можно использовать для лечения персонажа?</text>
+    <answer>Молоток</answer>
+    <answer correct="true">Аптечка</answer>
+    <answer>Бомба</answer>
+    <answer>Батарея</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к аптечке?</text>
+    <answer>Аптечка начнет двигаться</answer>
+    <answer>Аптечка будет светить</answer>
+    <answer>Аптечка взорвется</answer>
+    <answer correct="true">Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет можно использовать для ускорения перемещения объектов?</text>
+    <answer>Молоток</answer>
+    <answer>Сердце</answer>
+    <answer>Бомба</answer>
+    <answer correct="true">Реактивный ранец</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить батарею к реактивному ранцу?</text>
+    <answer>Ранец начнет двигаться</answer>
+    <answer correct="true">Ранец будет активирован</answer>
+    <answer>Ранец взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+    <question>
+    <text>Какой предмет в игре People Playground может использоваться для создания электричества?</text>
+    <answer>Молоток</answer>
+    <answer correct="true">Генератор</answer>
+    <answer>Бомба</answer>
+    <answer>Сердце</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить генератор к металлическому предмету в игре People Playground?</text>
+    <answer>Предмет начнет двигаться</answer>
+    <answer correct="true">Предмет будет электризован</answer>
+    <answer>Предмет взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет в игре People Playground можно использовать для уничтожения зданий?</text>
+    <answer>Молоток</answer>
+    <answer>Сердце</answer>
+    <answer correct="true">Динамит</answer>
+    <answer>Генератор</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить генератор к динамиту в игре People Playground?</text>
+    <answer>Динамит начнет двигаться</answer>
+    <answer>Динамит будет светить</answer>
+    <answer correct="true">Динамит взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет в игре People Playground можно использовать для перемещения объектов на расстоянии?</text>
+    <answer>Молоток</answer>
+    <answer correct="true">Телекинез</answer>
+    <answer>Бомба</answer>
+    <answer>Генератор</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить генератор к воде в игре People Playground?</text>
+    <answer>Вода начнет кипеть</answer>
+    <answer correct="true">Вода будет электризована</answer>
+    <answer>Вода взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет в игре People Playground можно использовать для быстрого перемещения объектов?</text>
+    <answer>Молоток</answer>
+    <answer>Сердце</answer>
+    <answer>Бомба</answer>
+    <answer correct="true">Реактивный ранец</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить генератор к реактивному ранцу в игре People Playground?</text>
+    <answer>Ранец начнет двигаться</answer>
+    <answer correct="true">Ранец будет активирован</answer>
+    <answer>Ранец взорвется</answer>
+    <answer>Ничего не произойдет</answer>
+  </question>
+
+  <question>
+    <text>Какой предмет в игре People Playground можно использовать для лечения персонажа?</text>
+    <answer>Молоток</answer>
+    <answer correct="true">Аптечка</answer>
+    <answer>Бомба</answer>
+    <answer>Генератор</answer>
+  </question>
+
+  <question>
+    <text>Что произойдет, если подключить генератор к аптечке в игре People Playground?</text>
+    <answer>Аптечка начнет двигаться</answer>
+    <answer>Аптечка будет светить</answer>
+    <answer>Аптечка взорвется</answer>
+    <answer correct="true">Ничего не произойдет</answer>
+  </question>
+  
+  <question>
+    <text>Секретный вопрос на интуицию</text>
+    <answer>1</answer>
+    <answer>2</answer>
+    <answer>3</answer>
+    <answer correct="true">4</answer>
   </question>
 </quiz>
