@@ -67,7 +67,7 @@ public class UIUpdater : MonoBehaviour
     }
     public void SetEndGamePanel()
     {
-        endGameScore.text = "���� : " + data.score.ToString();
+        endGameScore.text = "Счет : " + data.score.ToString();
         GameSessionPanel.SetActive(false);
         LosePanel.SetActive(true);
     }
