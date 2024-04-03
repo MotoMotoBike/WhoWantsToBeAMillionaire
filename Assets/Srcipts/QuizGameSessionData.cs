@@ -44,7 +44,6 @@ public class QuizGameSessionData : MonoBehaviour
         }
         else
         {
-            YandexGame.FullscreenShow();
             AnswerWrong();
         }
     }
