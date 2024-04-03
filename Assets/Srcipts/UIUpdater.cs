@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 public class UIUpdater : MonoBehaviour
 {
@@ -69,7 +67,7 @@ public class UIUpdater : MonoBehaviour
     }
     public void SetEndGamePanel()
     {
-        endGameScore.text = "явер : " + data.score.ToString();
+        endGameScore.text = "О©╫О©╫О©╫О©╫ : " + data.score.ToString();
         GameSessionPanel.SetActive(false);
         LosePanel.SetActive(true);
     }
