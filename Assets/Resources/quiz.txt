@@ -38,4 +38,245 @@
       <answer>Омега Наггетс: Омега Кликер</answer>
       <answer correct="true">Объедини Омега Наггетс!</answer>
     </question>
+    
+    <question>
+      <text>Как зовут создателя Омега Наггетс?</text>
+      <answer>Джон Доу</answer>
+      <answer>Макс Мастеров</answer>
+      <answer correct="true">Алекс Аркадов</answer>
+      <answer>Ник Новичок</answer>
+    </question>
+    
+    <question>
+      <text>В каком году была выпущена первая версия Омега Наггетс?</text>
+      <answer>2018</answer>
+      <answer correct="true">2020</answer>
+      <answer>2021</answer>
+      <answer>2019</answer>
+    </question>
+    
+    <question>
+      <text>Какой главный цвет Омега Наггетс?</text>
+      <answer>Синий</answer>
+      <answer>Зелёный</answer>
+      <answer correct="true">Жёлтый</answer>
+      <answer>Красный</answer>
+    </question>
+    
+    <question>
+      <text>Какое особое умение есть у Омега Наггетса?</text>
+      <answer>Телепортация</answer>
+      <answer correct="true">Сверхкрутость</answer>
+      <answer>Невидимость</answer>
+      <answer>Левитация</answer>
+    </question>
+    
+    <question>
+      <text>Как называется архивраг Омега Наггетса?</text>
+      <answer>Доктор Дробилка</answer>
+      <answer>Мистер Мясник</answer>
+      <answer correct="true">Барон Бекон</answer>
+      <answer>Капитан Курица</answer>
+    </question>
+    
+    <question>
+      <text>В каком городе проходят действия всех игр Омега Наггетс?</text>
+      <answer>Нью-Йорк</answer>
+      <answer>Токио</answer>
+      <answer correct="true">Фриджитаун</answer>
+      <answer>Сидней</answer>
+    </question>
+    
+    <question>
+      <text>Как называется событие, когда все Омега Наггетсы сражаются друг с другом?</text>
+      <answer>Битва Бургеров</answer>
+      <answer correct="true">Куриная Королевская битва</answer>
+      <answer>Наггетс Нападение</answer>
+      <answer>Омега Операция</answer>
+    </question>
+    
+    <question>
+      <text>Какой предмет является самым ценным во вселенной Омега Наггетс?</text>
+      <answer>Золотая ложка</answer>
+      <answer correct="true">Кристальная вилка</answer>
+      <answer>Серебряный нож</answer>
+      <answer>Бронзовая тарелка</answer>
+    </question>
+    
+    <question>
+      <text>Какое событие происходит каждый год в мире Омега Наггетс?</text>
+      <answer>Праздник Пиццы</answer>
+      <answer>Турнир Тако</answer>
+      <answer correct="true">Фестиваль Фри</answer>
+      <answer>Карнавал Кукурузы</answer>
+    </question>
+    
+    <question>
+      <text>Как называется последний уровень в Омега Наггетс?</text>
+      <answer>Последний Закус</answer>
+      <answer>Конечная Кухня</answer>
+      <answer correct="true">Финальная Фритюрница</answer>
+      <answer>Ультимативный Ужин</answer>
+    </question>
+    
+    <question>
+      <text>Какое имя носит лучший друг Омега Наггетса?</text>
+      <answer>Боб Булка</answer>
+      <answer correct="true">Пит Помидор</answer>
+      <answer>Сэм Соус</answer>
+      <answer>Гарри Гамбургер</answer>
+    </question>
+    
+    <question>
+      <text>Какой ингредиент является секретным компонентом силы Омега Наггетса?</text>
+      <answer>Острый перец</answer>
+      <answer>Сыр чеддер</answer>
+      <answer correct="true">Магический майонез</answer>
+      <answer>Кетчуп</answer>
+    </question>
+    
+    <question>
+      <text>Как называется домашний питомец Омега Наггетса?</text>
+      <answer>Котлета</answer>
+      <answer correct="true">Фришка</answer>
+      <answer>Булочка</answer>
+      <answer>Салатик</answer>
+    </question>
+    
+    <question>
+      <text>Какой предмет необходим Омега Наггетсу для выполнения миссий?</text>
+      <answer>Магический молоток</answer>
+      <answer correct="true">Супер сковорода</answer>
+      <answer>Летающая тарелка</answer>
+      <answer>Зелье скорости</answer>
+    </question>
+    
+    <question>
+      <text>Как называется злой двойник Омега Наггетса?</text>
+      <answer correct="true">Альфа Котлета</answer>
+      <answer>Дарк Дип</answer>
+      <answer>Бургер Бандит</answer>
+      <answer>Кетчуп Клоун</answer>
+    </question>
+    
+    <question>
+      <text>Какой музыкальный инструмент предпочитает Омега Наггетс?</text>
+      <answer>Гитара</answer>
+      <answer>Барабаны</answer>
+      <answer correct="true">Клавиши</answer>
+      <answer>Скрипка</answer>
+    </question>
+    
+    <question>
+      <text>Какой вид спорта Омега Наггетс любит больше всего?</text>
+      <answer>Футбол</answer>
+      <answer correct="true">Баскетбол</answer>
+      <answer>Теннис</answer>
+      <answer>Плавание</answer>
+    </question>
+    
+    <question>
+      <text>Как называется любимый напиток Омега Наггетса?</text>
+      <answer>Кола</answer>
+      <answer>Лимонад</answer>
+      <answer correct="true">Энергетик</answer>
+      <answer>Смузи</answer>
+    </question>
+    
+    <question>
+      <text>Какую игру Омега Наггетс разработал в свободное время?</text>
+      <answer>Квест Кетчупа</answer>
+      <answer correct="true">Приключения Помидора</answer>
+      <answer>Битва Булочек</answer>
+      <answer>Салатные Схватки</answer>
+    </question>
+    
+    <question>
+      <text>Как называется финальный босс, которого должен победить в Омега Наггетс?</text>
+      <answer>Великий Ветчинник</answer>
+      <answer>Сэр Соус</answer>
+      <answer>Император Эггплант</answer>
+      <answer correct="true">Маркиз Мясо</answer>
+    </question>
+    
+    <question>
+      <text>Как зовут маму Омега Наггетса?</text>
+      <answer>Маргарита Майонез</answer>
+      <answer>Салли Соус</answer>
+      <answer correct="true">Наташа Наггетс</answer>
+      <answer>Бетти Булка</answer>
+    </question>
+    
+    <question>
+      <text>Какое блюдо является любимым у отца Омега Наггетса?</text>
+      <answer>Пицца с пепперони</answer>
+      <answer correct="true">Куриные крылышки</answer>
+      <answer>Бургер с сыром</answer>
+      <answer>Спагетти с фрикадельками</answer>
+    </question>
+    
+    <question>
+      <text>Как называется младший брат Омега Наггетса?</text>
+      <answer>Джимми Джус</answer>
+      <answer correct="true">Тимми Наггетс</answer>
+      <answer>Бобби Бекон</answer>
+      <answer>Чарли Чипс</answer>
+    </question>
+    
+    <question>
+      <text>Какую игрушку больше всего любит сестра Омега Наггетса?</text>
+      <answer>Кукла Барбекю</answer>
+      <answer correct="true">Мягкая игрушка Фри</answer>
+      <answer>Плюшевый Помидор</answer>
+      <answer>Робот Кетчуп</answer>
+    </question>
+    
+    <question>
+      <text>Как зовут дедушку Омега Наггетса?</text>
+      <answer>Гарольд Хот-Дог</answer>
+      <answer>Фред Фрикаделька</answer>
+      <answer correct="true">Оскар Оладушек</answer>
+      <answer>Билл Бургер</answer>
+    </question>
+    
+    <question>
+      <text>Какой подарок Омега Наггетс сделал своей маме на день рождения?</text>
+      <answer>Серебряное ситечко</answer>
+      <answer correct="true">Золотая сковорода</answer>
+      <answer>Кристальная чаша</answer>
+      <answer>Бронзовый нож</answer>
+    </question>
+    
+    <question>
+      <text>Как называется любимая игра семьи Наггетс?</text>
+      <answer>Монополия на Макароны</answer>
+      <answer correct="true">Шахматы Шницеля</answer>
+      <answer>Карточки Картошки</answer>
+      <answer>Домино Десертов</answer>
+    </question>
+    
+    <question>
+      <text>Какой праздник семья Наггетс отмечает каждый год?</text>
+      <answer>День Бургера</answer>
+      <answer>Праздник Пиццы</answer>
+      <answer correct="true">Фестиваль Фри</answer>
+      <answer>Карнавал Кукурузы</answer>
+    </question>
+    
+    <question>
+      <text>Как зовут лучшую подругу сестры Омега Наггетса?</text>
+      <answer>Эмма Эскимо</answer>
+      <answer correct="true">Сьюзи Салат</answer>
+      <answer>Оливия Оладья</answer>
+      <answer>Лиза Лимонад</answer>
+    </question>
+    
+    <question>
+      <text>Какое место семья Наггетс выбирает для семейного отдыха?</text>
+      <answer>Пляж Бургеров</answer>
+      <answer correct="true">Озеро Лимонада</answer>
+      <answer>Горы Макарон</answer>
+      <answer>Долина Вафель</answer>
+    </question>
+
 </quiz>
