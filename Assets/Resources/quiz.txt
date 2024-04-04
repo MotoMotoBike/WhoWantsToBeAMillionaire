@@ -256,7 +256,6 @@
     </question>
     
     <question>
-      <text>Какой праздник семья Наггетс отмечает каждый год?</text>
       <answer>День Бургера</answer>
       <answer>Праздник Пиццы</answer>
       <answer correct="true">Фестиваль Фри</answer>
