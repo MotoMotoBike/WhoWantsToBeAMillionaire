@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1189,59 +1196,58 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ui-large-buttons-horizontal_17: -1531846046
-      ui-large-buttons-horizontal_47: 1328033202
-      ui-large-buttons-horizontal_5: 1876806504
-      ui-large-buttons-horizontal_43: -13796797
-      ui-large-buttons-horizontal_49: 1382042869
-      ui-large-buttons-horizontal_10: 1474753686
-      ui-large-buttons-horizontal_29: -95320757
-      ui-large-buttons-horizontal_22: 79472406
-      ui-large-buttons-horizontal_14: 1329109154
-      ui-large-buttons-horizontal_28: 721014508
-      ui-large-buttons-horizontal_1: -172380285
-      ui-large-buttons-horizontal_3: 1582149883
-      ui-large-buttons-horizontal_9: -413020759
-      ui-large-buttons-horizontal_38: 1706028125
-      ui-large-buttons-horizontal_20: -550324305
-      ui-large-buttons-horizontal_4: -438125756
-      ui-large-buttons-horizontal_33: 237540713
-      ui-large-buttons-horizontal_34: -1755470050
-      ui-large-buttons-horizontal_30: -1966197380
       ui-large-buttons-horizontal_0: 1272056152
-      ui-large-buttons-horizontal_42: -251120033
-      ui-large-buttons-horizontal_40: 783594012
-      ui-large-buttons-horizontal_27: -316483514
-      ui-large-buttons-horizontal_18: 23639821
-      ui-large-buttons-horizontal_37: 843285163
+      ui-large-buttons-horizontal_1: -172380285
+      ui-large-buttons-horizontal_10: 1474753686
+      ui-large-buttons-horizontal_11: 819242865
+      ui-large-buttons-horizontal_12: -114520337
+      ui-large-buttons-horizontal_13: -382409484
+      ui-large-buttons-horizontal_14: 1329109154
       ui-large-buttons-horizontal_15: 282053362
       ui-large-buttons-horizontal_16: 956745356
+      ui-large-buttons-horizontal_17: -1531846046
+      ui-large-buttons-horizontal_18: 23639821
+      ui-large-buttons-horizontal_19: 1674958508
+      ui-large-buttons-horizontal_2: -822670541
+      ui-large-buttons-horizontal_20: -550324305
+      ui-large-buttons-horizontal_21: -46670211
+      ui-large-buttons-horizontal_22: 79472406
+      ui-large-buttons-horizontal_23: 2011972841
+      ui-large-buttons-horizontal_24: -852126035
+      ui-large-buttons-horizontal_25: 849903850
+      ui-large-buttons-horizontal_26: 507379213
+      ui-large-buttons-horizontal_27: -316483514
+      ui-large-buttons-horizontal_28: 721014508
+      ui-large-buttons-horizontal_29: -95320757
+      ui-large-buttons-horizontal_3: 1582149883
+      ui-large-buttons-horizontal_30: -1966197380
+      ui-large-buttons-horizontal_31: -293016180
+      ui-large-buttons-horizontal_32: 719678893
+      ui-large-buttons-horizontal_33: 237540713
+      ui-large-buttons-horizontal_34: -1755470050
       ui-large-buttons-horizontal_35: -408805933
       ui-large-buttons-horizontal_36: 406828576
-      ui-large-buttons-horizontal_12: -114520337
-      ui-large-buttons-horizontal_19: 1674958508
-      ui-large-buttons-horizontal_48: -1495422689
+      ui-large-buttons-horizontal_37: 843285163
+      ui-large-buttons-horizontal_38: 1706028125
+      ui-large-buttons-horizontal_39: 1551530213
+      ui-large-buttons-horizontal_4: -438125756
+      ui-large-buttons-horizontal_40: 783594012
+      ui-large-buttons-horizontal_41: -2028522601
+      ui-large-buttons-horizontal_42: -251120033
+      ui-large-buttons-horizontal_43: -13796797
+      ui-large-buttons-horizontal_44: 944927878
       ui-large-buttons-horizontal_45: -2063352897
-      ui-large-buttons-horizontal_23: 2011972841
+      ui-large-buttons-horizontal_46: 1790323538
+      ui-large-buttons-horizontal_47: 1328033202
+      ui-large-buttons-horizontal_48: -1495422689
+      ui-large-buttons-horizontal_49: 1382042869
+      ui-large-buttons-horizontal_5: 1876806504
+      ui-large-buttons-horizontal_6: -1300904573
       ui-large-buttons-horizontal_7: -413985992
       ui-large-buttons-horizontal_8: 222075681
-      ui-large-buttons-horizontal_24: -852126035
-      ui-large-buttons-horizontal_11: 819242865
-      ui-large-buttons-horizontal_25: 849903850
-      ui-large-buttons-horizontal_2: -822670541
-      ui-large-buttons-horizontal_31: -293016180
-      ui-large-buttons-horizontal_39: 1551530213
-      ui-large-buttons-horizontal_21: -46670211
-      ui-large-buttons-horizontal_41: -2028522601
-      ui-large-buttons-horizontal_13: -382409484
-      ui-large-buttons-horizontal_32: 719678893
-      ui-large-buttons-horizontal_6: -1300904573
-      ui-large-buttons-horizontal_44: 944927878
-      ui-large-buttons-horizontal_26: 507379213
-      ui-large-buttons-horizontal_46: 1790323538
-  spritePackingTag: 
+      ui-large-buttons-horizontal_9: -413020759
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

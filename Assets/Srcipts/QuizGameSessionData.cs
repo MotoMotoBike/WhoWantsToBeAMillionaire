@@ -1,5 +1,6 @@
 using Assets.Srcipts.Model;
 using UnityEngine;
+using UnityEngine.Events;
 using YG;
 
 public class QuizGameSessionData : MonoBehaviour
@@ -16,6 +17,13 @@ public class QuizGameSessionData : MonoBehaviour
     public Question currentQuestion;
     public UIUpdater UIUpdater;
 
+
+    public void HealForAd()
+    {
+        lives++;
+        if (lives > 3) lives = 3;
+        UIUpdater.UpdateLives();
+    }
     private void Awake()
     {
         parcerXML = FindObjectOfType<ParcerXML>();
