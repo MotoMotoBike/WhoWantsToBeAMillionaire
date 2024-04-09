@@ -969,7 +969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0.020000001, y: 1}
-  m_AnchoredPosition: {x: 296.83, y: -289.90005}
+  m_AnchoredPosition: {x: 296.83, y: -205}
   m_SizeDelta: {x: 553.7469, y: 88.380005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409713300
@@ -1107,6 +1107,7 @@ RectTransform:
   - {fileID: 1948594295}
   - {fileID: 431838233}
   - {fileID: 1337405187}
+  - {fileID: 2020853079}
   m_Father: {fileID: 1611412155}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.047867097, y: 0}
@@ -1460,7 +1461,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.6886792, g: 0.3618942, b: 0, a: 0}
+  m_BackGroundColor: {r: 1, g: 0.52272725, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2087,7 +2088,6 @@ RectTransform:
   - {fileID: 1005891580}
   - {fileID: 721517436}
   - {fileID: 1140325808}
-  - {fileID: 2020853079}
   m_Father: {fileID: 1866376960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2622,7 +2622,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0.016, y: 1}
-  m_AnchoredPosition: {x: 226.5, y: -216.24796}
+  m_AnchoredPosition: {x: 226.5, y: -131.34793}
   m_SizeDelta: {x: 413.08148, y: 88.3772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922503654
@@ -2909,7 +2909,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.95
+  m_fontSize: 40.75
   m_fontSizeBase: 38.9
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3104,7 +3104,7 @@ GameObject:
   - component: {fileID: 1077478074}
   - component: {fileID: 1077478076}
   m_Layer: 0
-  m_Name: quizData
+  m_Name: '[quizData]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3155,6 +3155,7 @@ MonoBehaviour:
   qestionCompleteCount: 0
   score: 0
   AnsversCountToWin: 100
+  timer: {fileID: 2020853080}
   UIUpdater: {fileID: 2021237228}
 --- !u!1 &1078309329
 GameObject:
@@ -3844,7 +3845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0.096, y: 1}
-  m_AnchoredPosition: {x: 205, y: -153}
+  m_AnchoredPosition: {x: 205, y: 149}
   m_SizeDelta: {x: 368.3014, y: 119.995804}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1167247033
@@ -4370,7 +4371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.72156864}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4547,7 +4548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1611412152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4778,7 +4779,6 @@ GameObject:
   - component: {fileID: 1622770830}
   - component: {fileID: 1622770829}
   - component: {fileID: 1622770828}
-  - component: {fileID: 1622770831}
   m_Layer: 5
   m_Name: Add HP
   m_TagString: Untagged
@@ -4900,20 +4900,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622770826}
   m_CullTransparentMesh: 1
---- !u!114 &1622770831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622770826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44929c4bea39a064d9d915db1eb15500, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data: {fileID: 0}
-  go: {fileID: 0}
 --- !u!1 &1664601827
 GameObject:
   m_ObjectHideFlags: 0
@@ -4971,7 +4957,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0418\u0433\u0440\u0430 \u043E\u043A\u043E\u043D\u0447\u0435\u043D\u0430"
+  m_text: "\u0422\u0435\u0441\u0442 \u043F\u0440\u043E\u0432\u0430\u043B\u0435\u043D
+    (("
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4dd60d137961d5b4b9b17461d1063aad, type: 2}
   m_sharedMaterial: {fileID: -7986275860684859319, guid: 4dd60d137961d5b4b9b17461d1063aad, type: 2}
@@ -5105,7 +5092,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u0441\u043D\u043E\u0432\u0430"
+  m_text: "\u0415\u0449\u0435 \u0440\u0430\u0437!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4dd60d137961d5b4b9b17461d1063aad, type: 2}
   m_sharedMaterial: {fileID: -7986275860684859319, guid: 4dd60d137961d5b4b9b17461d1063aad, type: 2}
@@ -5381,7 +5368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1767581322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6141,6 +6128,7 @@ GameObject:
   - component: {fileID: 2020853082}
   - component: {fileID: 2020853081}
   - component: {fileID: 2020853080}
+  - component: {fileID: 2020853083}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -6155,16 +6143,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020853078}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 767889147}
+  m_Father: {fileID: 417982708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0021667, y: -153.6}
+  m_AnchoredPosition: {x: 0.001687993, y: -294.33838}
   m_SizeDelta: {x: 1280.7, y: 64.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2020853080
@@ -6179,19 +6167,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 514166f102cb58d4c9ac764805101862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 15
+  maxTime: 30
   text: {fileID: 2020853081}
+  color1: {r: 0.13743508, g: 1, b: 0, a: 1}
+  color2: {r: 1, g: 0, b: 0, a: 1}
   OnQestionExpired:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 488676198}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 1077478076}
+        m_TargetAssemblyTypeName: QuizGameSessionData, Assembly-CSharp
+        m_MethodName: getAnsver
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1077478076}
+        m_TargetAssemblyTypeName: QuizGameSessionData, Assembly-CSharp
+        m_MethodName: SetNextQustion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2021237228}
+        m_TargetAssemblyTypeName: UIUpdater, Assembly-CSharp
+        m_MethodName: NextQusetion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6238,6 +6252,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020853078}
   m_CullTransparentMesh: 1
+--- !u!114 &2020853083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020853078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2021237227
 GameObject:
   m_ObjectHideFlags: 0

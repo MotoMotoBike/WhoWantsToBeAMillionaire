@@ -78,29 +78,24 @@ public class UIUpdater : MonoBehaviour
     }
     public IEnumerator ShowWrongMessageBox()
     {
+        StopAllCoroutines();
         source.clip = WrongClip;
         source.Play();
-        for (int i = 0; i < 5; i++)
-        {
-            yield return new WaitForSeconds(0.2f);
-            WrongAnsver.SetActive(true);
-            yield return new WaitForSeconds(0.2f);
-            WrongAnsver.SetActive(false);
-        }
+        
+        WrongAnsver.SetActive(true);
+        yield return new WaitForSeconds(0.4f);
         WrongAnsver.SetActive(false);
+    
     }
     public IEnumerator ShowCorrectMessageBox()
     {
+        StopAllCoroutines();
         source.clip = CorrectClip;
         source.Play();
-        for (int i = 0; i < 5; i++)
-        {
-            yield return new WaitForSeconds(0.2f);
-            CorrectAnsver.SetActive(true);
-            yield return new WaitForSeconds(0.2f);
-            CorrectAnsver.SetActive(false);
-        }
+        CorrectAnsver.SetActive(true);
+        yield return new WaitForSeconds(0.4f);
         CorrectAnsver.SetActive(false);
+        
     }
     public void UpdateLives()
     {

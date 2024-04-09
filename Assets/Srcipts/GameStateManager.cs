@@ -14,7 +14,7 @@ public class GameStateManager : MonoBehaviour
         string userName = PlayerNameText.text;
         if (userName == "​" || userName == "" )
         {
-            userName = "Испытуемый: "+Random.Range(0,10000).ToString();
+            userName = "Игрок№ "+Random.Range(0,10000);
         }
         mainMenuPanel.SetActive(false);
         losePanel.SetActive(false);

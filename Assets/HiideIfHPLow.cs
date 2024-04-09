@@ -8,7 +8,7 @@ public class HiideIfHPLow : MonoBehaviour
     [SerializeField] private GameObject go;
     void FixedUpdate()
     {
-        if (_data.lives < 3)
+        if (_data != null && _data.lives < 3)
         {
             go.SetActive(true);
         }

@@ -14,6 +14,7 @@ public class QuizGameSessionData : MonoBehaviour
     public int AnsversCountToWin = 100;
 
     public Quiz quiz;
+    public TimeToAnsver timer;
     public Question currentQuestion;
     public UIUpdater UIUpdater;
 
@@ -37,6 +38,7 @@ public class QuizGameSessionData : MonoBehaviour
         lives = 3;
         qestionCompleteCount = 0;
         currentQuestion = quiz.Questions[Random.Range(0, quiz.Questions.Count)];
+        timer.ResetTimer();
         UIUpdater.UpdateUI();
     }
     public void EndSession()
@@ -83,6 +85,7 @@ public class QuizGameSessionData : MonoBehaviour
     }
     public void AnswerCorrect()
     {
+        timer.ResetTimer();
         SetNextQustion();
         UIUpdater.NextQusetion();
         StartCoroutine(UIUpdater.ShowCorrectMessageBox());

@@ -1,2 +1,2 @@
 Build path: D:/Unity/YandexGames/Builds/Omega
-Build number: 18
+Build number: 21
